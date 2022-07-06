@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+}
+.banner-section{
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 349px;
+    text-align: center;
+}
+.banner-section h1, p{
+    color: white;
+}
