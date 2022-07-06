@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* Banner Section */
+
 .banner-section{
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
@@ -13,7 +16,7 @@ body{
 }
 .banner-section h1{
     color: white;
-    font-size: 60px;
+    font-size: 70px;
 }
 .banner-section p{
     color: white;
@@ -24,8 +27,108 @@ body{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    background-color: rgb(208, 78, 78);
-    padding: 15px 30px;
+    background-color: rgba(255, 0, 0, 0.751);
+    padding: 10px 15px;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+/* Donate Section */
+
+.donate-section{
+    padding: 0 300px;
+    text-align: center;
+    margin-top: 80px;
+}
+.donate-section-h{
+    font-size: 40px;
+}
+.donate-section-p{
+    font-size: 18px;
+}
+.d-flex{
+    display: flex;
+}
+.unselected-ammount{
+    background-color: rgba(77, 60, 60, 0.109);
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.selected-ammount{
+    background-color: rgba(220, 110, 110, 0.109);
+    display: inline-block;
+    border: 2px solid rgb(245, 138, 138);
+    padding: 0 14px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.other-amount{
+    text-align: center;
+    border: none;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px 230px;
+    border-bottom: 1px solid rgb(174, 172, 172);
+    outline: none;
+}
+.donate-section a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.751);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.donate-team{
+    width: 1000px;
+    margin: auto;
+}
+.donate-team h1{
+    text-align: center;
+    font-size: 40px;
+}
+.donate-team-p{
+    text-align: center;
+    font-size: 18px;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.textLeft{
+    text-align: left;
+}
+.food{
+    width: 30%;
+    background-color: rgba(190, 249, 229, 0.518);
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.shelter{
+    width: 30%;
+    background-color: rgba(226, 249, 190, 0.518);
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.education{
+    width: 30%;
+    background-color: rgba(190, 195, 249, 0.518);
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
