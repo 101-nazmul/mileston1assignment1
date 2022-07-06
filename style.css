@@ -1,15 +1,31 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 .banner-section{
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 349px;
+    padding: 279px;
     text-align: center;
 }
-.banner-section h1, p{
+.banner-section h1{
     color: white;
+    font-size: 60px;
+}
+.banner-section p{
+    color: white;
+    font-size: 20px;
+}
+.banner-section a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(208, 78, 78);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 5px;
 }
