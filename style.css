@@ -20,12 +20,12 @@ body{
 }
 .banner-section p{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 .banner-section a{
     display: inline-block;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     background-color: rgba(255, 0, 0, 0.751);
     padding: 10px 15px;
@@ -52,23 +52,23 @@ body{
 .unselected-ammount{
     background-color: rgba(77, 60, 60, 0.109);
     display: inline-block;
-    padding: 0 16px;
+    padding: 0 20px;
     font-size: 30px;
     font-weight: 600;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-radius: 5px;
 }
 .selected-ammount{
     background-color: rgba(220, 110, 110, 0.109);
     display: inline-block;
     border: 2px solid rgb(245, 138, 138);
-    padding: 0 14px;
+    padding: 0 20px;
     font-size: 30px;
     border-radius: 5px;
     font-weight: 600;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .other-amount{
     text-align: center;
@@ -93,6 +93,7 @@ body{
 .donate-team{
     width: 1000px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .donate-team h1{
     text-align: center;
@@ -131,4 +132,44 @@ body{
     border-radius: 10px;
     margin-left: 1%;
     margin-right: 1%;
+}
+.blog{
+    width: 1000px;
+    margin: auto;
+}
+.blog-post{
+    width: 50%;
+}
+.blog-post h1{
+    font-size: 40px;
+}
+.blog-post p{
+    font-size: 18px;
+}
+.blog-img{
+    width: 40%;
+}
+.blog img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+.blog a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.784);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.mar-left-5{
+    margin-left: 5%;
+}
+.mar-right-5{
+    margin-right: 5%;
+}
+.mar-btm{
+    margin-bottom: 120px;
 }
