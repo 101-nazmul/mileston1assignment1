@@ -1,10 +1,23 @@
+/* Default CSS */
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
 }
+.mar-left-5{
+    margin-left: 5%;
+}
+.mar-right-5{
+    margin-right: 5%;
+}
+.mar-top{
+    margin-top: 120px;
+}
 
-/* Banner Section */
+/* Banner Section End*/
+
+/* Banner Section Start*/
 
 .banner-section{
     background-image: url(images/banner.jpg);
@@ -33,7 +46,9 @@ body{
     margin-top: 5px;
 }
 
-/* Donate Section */
+/* Banner Section End*/
+
+/* Donate Section Start*/
 
 .donate-section{
     padding: 0 300px;
@@ -90,6 +105,11 @@ body{
     margin-top: 20px;
     margin-bottom: 70px;
 }
+
+/* Donate Section End*/
+
+/* Donate Team Section Start */
+
 .donate-team{
     width: 1000px;
     margin: auto;
@@ -133,6 +153,11 @@ body{
     margin-left: 1%;
     margin-right: 1%;
 }
+
+/* Donate Team Section End */
+
+/* Blog Post Section Start */
+
 .blog{
     width: 1000px;
     margin: auto;
@@ -164,12 +189,12 @@ body{
     display: inline-block;
     margin-top: 10px;
 }
-.mar-left-5{
-    margin-left: 5%;
-}
-.mar-right-5{
-    margin-right: 5%;
-}
-.mar-btm{
-    margin-bottom: 120px;
-}
+
+/* Blog Post Section End */
+
+/* News Letter Section Start */
+
+
+
+/* News Letter Section End */
+
