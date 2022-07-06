@@ -14,6 +14,9 @@ body{
 .mar-top{
     margin-top: 120px;
 }
+.mar-btm{
+    margin-btm: 120px;
+}
 
 /* Banner Section End*/
 
@@ -194,7 +197,65 @@ body{
 
 /* News Letter Section Start */
 
-
+.newsLetter{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+.newsLetter h1{
+    font-size: 40px;
+}
+.newsLetter p{
+    margin: auto;
+    width: 400px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.newsLetterEmail{
+    margin-top: 50px;
+    outline: none;
+    background-color: rgba(250, 252, 109, 0.727);
+    padding: 90px 120px;
+    border-radius: 10px;
+}
+.newsLetterEmail1{
+    padding: 10px 40px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgba(110, 106, 106, 0.255);
+    border-radius: 5px 0 0 5px;
+}
+.newsLetterEmail2{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgba(255, 0, 0, 0.784);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-left: -3px;
+}
 
 /* News Letter Section End */
 
+/* Footer Section Start */
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+.footer-h1{
+    color: brown;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/* Footer Section End */
